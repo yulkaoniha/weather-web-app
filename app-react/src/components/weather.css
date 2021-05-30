@@ -1,0 +1,56 @@
+.weather {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  width: max-content;
+  padding: 0px 20px 20px 20px;
+  margin-left: 25%;
+}
+.weather .title {
+  font-size: 3rem;
+
+  font-family: 'Montserrat', sans-serif;
+}
+.weather form {
+  margin-top: 30px;
+}
+.weather form input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(71, 2, 88);
+  margin-right: 10px;
+}
+
+.weather form input:focus {
+  outline: none;
+  border-bottom: 3px solid rgb(71, 2, 88);
+}
+
+.getweather {
+  margin-left: 10px;
+  padding: 3px;
+  font-size: 1.4rem;
+  border: none;
+  border: 2px solid black;
+  background: rgb(71, 2, 88);
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+
+.weather :hover {
+  background: transparent;
+  color: black;
+}
+
+.weather .getweather:focus {
+  outline: none;
+}
+
+.getweather {
+  transition:all .5s ease-in-out;
+}
+
+.getweather :hover {
+  background:white;
+  color:#ff9292;
+}
